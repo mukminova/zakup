@@ -1,0 +1,10 @@
+.goods h3:before {
+    content: '';
+    display: inline-block;
+    background: url("../../img/goods/goods.png");
+    width: 1.667em;
+    height: 1.4em;
+    margin-right: 0.8em;
+    vertical-align: -0.1em;
+}
+

@@ -1,0 +1,22 @@
+@import "base.css";
+
+@import "componets/_header.css";
+@import "componets/_header-nav.css";
+@import "componets/_footer.css";
+@import "componets/_helpers.css";
+@import "componets/_content-box.css";
+@import "componets/_goods.css";
+@import "componets/_goods-list.css";
+@import "componets/_about-company.css";
+@import "componets/_contacts.css";
+@import "componets/_contact-button.css";
+@import "componets/_about-us.css";
+@import "componets/_service.css";
+@import "componets/_products.css";
+@import "componets/_products-categories.css";
+@import "componets/_product-panel.css";
+@import "componets/_products-gallery.css";
+@import "componets/_products-undergallery.css";
+@import "componets/_window.css";
+@import "componets/_window-mini-gallery.css";
+@import "componets/_products-slider.css";

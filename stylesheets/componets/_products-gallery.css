@@ -1,0 +1,47 @@
+.products-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2.4em;
+}
+
+.products-gallery__img {
+    padding: 1em 0;
+    border: 1px solid #ccc;
+    height: 18em;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 1.6em;
+}
+
+.products-gallery__name {
+    font: 1.4em 'PragmaticaLightC';
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.products-gallery__count {
+    color: #8c8c8c;
+}
+
+.products-gallery__item {
+    padding: 1.3em 0;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 20em;
+}
+
+@media (min-width: 1024px) {
+    .products-gallery {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .products-gallery__item {
+        margin: 0;
+    }
+}

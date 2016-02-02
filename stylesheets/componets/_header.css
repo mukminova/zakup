@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 1em;
+}
+
+.header__rating {
+    color: #00687a;
+    font-size: 1.1em;
+    display: flex;
+}
+
+.header__rating__star {
+    display: flex;
+    align-self: center;
+    margin-left: 0.6em;
+}
+
+.header__rating__star li {
+    list-style: none;
+    background: url("../../img/header/star.png");
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.15em;
+}
+
+.header__header-menu-btn {
+    background: url("../../img/header-menu/menu.png") no-repeat;
+    width: 2em;
+    height: 2em;
+    margin: 0 1em;
+    border: none;
+    outline: none;
+}
+
+.header__header-menu:not(.active) .header__header-menu-btn {
+    /*display: none;*/
+}
+
+.header__header-menu.active .header__header-menu-list {
+    z-index: 10;
+    background: #fff;
+}
+
+.header__header-menu:not(.active) .header__header-menu-list {
+    display: none;
+}
+
+.header__header-menu-list {
+    top: 3.9em;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header__header-menu-list li {
+    padding: 0.5em 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header__header-menu-list a {
+    font: 1.6em 'Trebuchet MS Bold';
+    text-align: center;
+    color: #bbb;
+    text-decoration: none;
+    margin-left: 0.8em;
+}
+
+.header__header-menu-list a.header__header-menu-list--select {
+    color: #ff8200;
+}
+
+@media (min-width: 768px) {
+    .header__header-menu-list {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        height: 7.3em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        padding: 0.5em;
+        margin-right: -2.3em;
+    }
+
+    .header__header-menu-btn {
+        display: none;
+    }
+
+    .header__header-menu {
+        width: 70%;
+        box-sizing: border-box;
+        margin-right: 2em;
+    }
+
+    .header__header-menu:not(.active)  .header__header-menu-list {
+        display: flex;
+        padding: 0;
+    }
+
+    .header__header-menu-list {
+        position: relative;
+        top: 0;
+        flex-direction: row;
+    }
+}

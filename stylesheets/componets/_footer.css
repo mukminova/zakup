@@ -1,0 +1,39 @@
+.footer {
+    color: #fff;
+    background: #323339;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.footer-info a {
+    color: #fff;
+}
+
+.footer-info__company-name {
+    font: 1.4em "PragmaticaC";
+}
+
+.footer-info__description {
+    font: 1.2em "PragmaticaLightC";
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        margin-left: -2.1em;
+        margin-right: -2.1em;
+        flex-direction: row;
+        padding: 0 4em 0 16em;
+        height: 9.6em;
+        justify-content: space-between;
+    }
+
+    .footer-info__description {
+        margin-top: 0.5em;
+    }
+}

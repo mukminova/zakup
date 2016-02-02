@@ -1,0 +1,9 @@
+.about-us {
+    margin-bottom: 3.5em;
+}
+
+.about-us__description {
+    font: 1.6em 'PragmaticaLightC';
+    color: #646464;
+    line-height: 1.6em;
+}

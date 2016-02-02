@@ -1,0 +1,40 @@
+.content-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-box__main {
+    padding: 1.7em 2em;
+}
+
+.content-box__sidebar {
+    background: #e3ebec;
+    padding: 1.7em 2.5em 3em 2.2em;
+}
+
+@media (min-width: 768px) {
+    .content-box {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .content-box__sidebar {
+        max-width: 210px;
+        margin-left: 1.2em;
+    }
+
+    .content-box__main {
+        flex: 1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-box {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .content-box__main {
+        padding: 1.7em 2em 1.7em 4.5em;
+    }
+}

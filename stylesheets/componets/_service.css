@@ -1,0 +1,39 @@
+.service {
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+}
+
+.service__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__catalog {
+    display: flex;
+    list-style: none;
+    margin-bottom: 2.4em;
+    box-sizing: border-box;
+}
+
+.service__folder {
+    background: url('../../img/service/folder.png') no-repeat;
+    width: 5.8em;
+    height: 4.5em;
+    margin-right: 2em;
+}
+
+.service__item {
+    flex: 1;
+}
+
+.service__description {
+    font: 1.2em 'PragmaticaLightC';
+    color: #828282;
+}
+
+@media (min-width: 1024px) {
+    .service__catalog {
+        width: 50%;
+        padding-right: 80px;
+    }
+}

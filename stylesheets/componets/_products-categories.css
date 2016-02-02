@@ -1,0 +1,22 @@
+.products-categories {
+    display: flex;
+    margin-bottom: 1.3em;
+}
+
+.products-categories__icon {
+    background: url("../../img/products-categories/category-bg.png");
+    width: 10.2em;
+    height: 6.1em;
+}
+
+.products-categories_description {
+    font: 1.2em 'PragmaticaLightC';
+    color: #00161b;
+    line-height: 1.8em;
+    margin-top: 0.2em;
+}
+
+.products-categories__item {
+    margin-left: 2em;
+    flex: 1;
+}

@@ -1,0 +1,23 @@
+.goods-list > li {
+    font: 1.6em 'PragmaticaC';
+    color: #000000;
+    list-style: none;
+    padding-bottom: 0.625em;
+}
+
+.goods-list > li:before {
+    content: "›";
+    padding-right: 0.5em;
+}
+
+.goods-list__inner > li {
+    font: 0.875em 'PragmaticaLightC';
+    list-style: none;
+    padding-left: 1.5em;
+    padding-top: 0.45em;
+}
+
+.goods-list__inner > li:before {
+    content: "•";
+    padding-right: 0.4em;
+}

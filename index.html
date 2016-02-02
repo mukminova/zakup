@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zakupka.com</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+<section class="site">
+    <header>
+        <div class="header">
+            <a href="#">
+                <img src="img/header/logo.png" class="header__logo"/>
+            </a>
+            <div class="header__rating">
+                VIP
+                <ul class="header__rating__star">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="header__header-menu">
+                <button type="button" id="menu-btn" class="header__header-menu-btn"><!--image--></button>
+                <ul class="header__header-menu-list ">
+                    <li>
+                        <img src="img/header-menu/add.png">
+                        <a href="#">Добавить компанию на Zakupka.com</a>
+                    </li>
+                    <li>
+                        <img src="img/header-menu/phone.png">
+                        <a class="header__header-menu-list--select" href="#">Заказать обратный звонок</a>
+                    </li>
+                    <li>
+                        <img src="img/header-menu/basket.png">
+                        <a href="#">Корзина</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="header-nav__company-info">
+                <div class="header-nav__company-info-box">
+                    <img src="img/header-nav/logo-firm.png"/>
+
+                    <div class="header-nav__company-name">Мотор Сич</div>
+                </div>
+                <div class="header-nav__company-phone">+7 (912) 220-71-85</div>
+            </div>
+            <nav class="header-nav__panel">
+                <ul class="header-nav__panel-menu">
+                    <li class="header-nav__panel-menu--active"><a href="#">Главная</a></li>
+                    <li><a href="#">Товары и услуги</a></li>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a class="header-nav__panel-menu--hover" href="#">Контакты</a></li>
+                </ul>
+                <div class="header-nav__panel-search-box">
+                    <input type="text" class="header-nav__panel-search" placeholder="Поиск товаров">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="site-content">
+        <div class="helpers">
+            <ul class="helpers__breadcrumbs">
+                <li><a href="#" class="breadcrumbs__home"><img src="img/helpers/home.png"></a></li>
+                <li><a href="#">Товары и услуги</a></li>
+                <li><a href="#">Ручная дуговая</a></li>
+                <li><a href="#">Инверторы</a></li>
+            </ul>
+
+            <div class="helpers__change-language">
+                <select title="change-language" class="helpers__change-language-select">
+                    <option>Выбрать язык</option>
+                    <option>Английский</option>
+                    <option>Украинский</option>
+                    <option>Русский</option>
+                    <option>Немецкий</option>
+                    <option>Французкий</option>
+                    <option>Болгарский</option>
+                </select>
+                <a class="helpers__change-language-button"></a>
+            </div>
+        </div>
+        <article class="content-box">
+            <aside class="content-box__sidebar">
+                <section class="goods">
+                    <h3>Товары и услуги</h3>
+                    <ul class="goods-list">
+                        <li>Фонари (169)
+                            <ul class="goods-list__inner">
+                                <li>Бинокулярная лупа</li>
+                                <li>Лампа-лупа ZD-129A</li>
+                                <li>Круглогубцы 4,5IN загнутые</li>
+                            </ul>
+                        </li>
+                        <li>Детектор валюты (3)</li>
+                        <li>Зарядные устройства (6)</li>
+                        <li>Лазерные указки (3)</li>
+                        <li>Крепления для фонарей (2)</li>
+                        <li>Li-ion аккумуляторы к фонарям (12)</li>
+                        <li>Скотч (3)</li>
+                    </ul>
+                </section>
+
+                <section class="about-company">
+                    <ul class="about-company__list">
+                        <li><a class="about-company__link" href="#">О нас</a></li>
+                        <li><a class="about-company__link" href="#">Оставить отзыв</a></li>
+                        <li><a class="about-company__link" href="#">Новости</a></li>
+                        <li><a class="about-company__link" href="#">Статьи</a></li>
+                    </ul>
+                </section>
+
+                <section class="contacts">
+                    <h3>Контакты</h3>
+
+                    <div class="contacts__name">Интернет-магазин "Киндервельт"</div>
+                    <div class="contacts__item">
+                        <h5>Телефоны:</h5>
+                        +380 (93) 143-55-48, Лайф
+                        +380 (66) 044-63-48, МТС
+                        +380 (98) 917-03-57, Киевстар
+                    </div>
+                    <div class="contacts__item">
+                        <h5>Адрес:</h5>
+                        58000, Украина, Черновицкая
+                        обл., Черновцы, л. Головна 17,
+                        маг. МОТОТЕХНИКА, Черновцы,
+                        58022, Украина <a href="#">на карте</a>
+                    </div>
+                    <button class="contact-button">
+                        <div class="contact-button__icon"></div>
+                        Написать нам
+                    </button>
+
+                    <ul class="contacts__social">
+                        <li>
+                            <a href="#">
+                                <img src="img/contacts/vk.png">
+                                Вконтакте
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/contacts/fc.png">
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/contacts/ggle.png">
+                                Google+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/contacts/twit.png">
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+            </aside>
+
+
+            <main class="content-box__main">
+                <section class="about-us">
+                    <h1>О нас</h1>
+                    <div class="about-us__description">
+                        В интернет-магазине Киндервельт представлен широкий ассортимент товаров.
+                        Основные наши направления это настольные игры, разнообразные игровые фигурки,
+                        машинки, пистолеты, мягкие игрушки, в общем, всё, что может понадобиться ребенку,
+                        также мы занимаемся чехлами для смартфонов и планшетов, кухонной продукцией
+                        фирм Bergner и Kaiserhoff, также в нашем магазине представлен качественный
+                        турецкий текстиль Arya. Все товары мы отправляем товары как наложенным платежом,
+                        так и по предоплате.
+                    </div>
+                </section>
+
+                <section class="service">
+                    <h1>Товары и услуги</h1>
+                    <ul class="service__list">
+                        <li class="service__catalog">
+                            <div class="service__folder"></div>
+                            <div class="service__item">
+                                <h4>Крупная бытовая техника (303)</h4>
+                                <div class="service__description">Электрическая печь,
+                                    Духовки, Посудомоечные
+                                    машины, Стиральные машины,
+                                    Варочные поверхности,
+                                    Холодильники
+                                </div>
+                            </div>
+                        </li>
+                        <li class="service__catalog">
+                            <div class="service__folder"></div>
+                            <div class="service__item">
+                                <h4>Крупная бытовая техника (303)</h4>
+                                <div class="service__description">Электрическая печь,
+                                    Духовки, Посудомоечные
+                                    машины, Стиральные машины,
+                                    Варочные поверхности,
+                                    Холодильники
+                                </div>
+                            </div>
+                        </li>
+                        <li class="service__catalog">
+                            <div class="service__folder"></div>
+                            <div class="service__item">
+                                <h4>Крупная бытовая техника (303)</h4>
+                                <div class="service__description">Электрическая печь,
+                                    Духовки, Посудомоечные
+                                    машины, Стиральные машины,
+                                    Варочные поверхности,
+                                    Холодильники
+                                </div>
+                            </div>
+                        </li>
+                        <li class="service__catalog">
+                            <div class="service__folder"></div>
+                            <div class="service__item">
+                                <h4>Крупная бытовая техника (303)</h4>
+                                <div class="service__description">Электрическая печь,
+                                    Духовки, Посудомоечные
+                                    машины, Стиральные машины,
+                                    Варочные поверхности,
+                                    Холодильники
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="products">
+                    <h1>Товары и услуги</h1>
+                    <ul class="products__list">
+                        <li class="products__item">
+                            <img src="img/products/product-img.png">
+                            <a href="#" class="products__name">
+                                Биокамины
+                                <span class="products__count">(1)</span>
+                            </a>
+                        </li>
+
+                        <li class="products__item">
+                            <img src="img/products/product-img.png">
+                            <a href="#" class="products__name">
+                                Оригинальные<br> подарки
+                                <span class="products__count">(29)</span>
+                            </a>
+                        </li>
+
+                        <li class="products__item">
+                            <img src="img/products/product-img.png">
+                            <a href="#" class="products__name">
+                                Для дома и сада
+                                <span class="products__count">(133)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <div class="products-categories">
+                        <div class="products-categories__icon"></div>
+                        <header class="products-categories__item">
+                            <h2>Биокамины</h2>
+                            <div class="products-categories_description">
+                                Ваш сайт одновременно находится в 3-х дата-центрах, благодоря чему достигается высокая
+                                доступность сайта.
+                            </div>
+                        </header>
+                    </div>
+                    <article>
+                        <ul class="product-panel">
+                            <li class="product-panel__item">
+                                <div class="product-panel__key-name">Сортировка</div>
+                                <select title="sorting">
+                                    <option>По рейтингу</option>
+                                    <option>Сначала подешевле</option>
+                                    <option>Сначала подороже</option>
+                                    <option>По новизне</option>
+                                    <option>По алфавиту А-Я</option>
+                                    <option>По алфавиту Я-А</option>
+                                </select>
+                            </li>
+                            <li class="product-panel__item">
+                                <div class="product-panel__key-name">Вид</div>
+                                <select title="view">
+                                    <option>Галереей</option>
+                                </select>
+                            </li>
+                            <li class="product-panel__item">
+                                <div class="product-panel__key-name">Товаров на странице</div>
+                                <select title="products-count">
+                                    <option>48</option>
+                                </select>
+                            </li>
+                        </ul>
+
+                        <ul class="products-gallery">
+                            <li class="products-gallery__item">
+                                <div class="products-gallery__img">
+                                    <img src="img/products-gallery/img1.png">
+                                </div>
+                                <a href="#" class="products-gallery__name">
+                                    Ножницы для пиццы
+                                    <span class="products-gallery__count">(5)</span>
+                                </a>
+                            </li>
+
+                            <li class="products-gallery__item">
+                                <div class="products-gallery__img">
+                                    <img src="img/products-gallery/img2.png">
+                                </div>
+                                <a href="#" class="products-gallery__name">
+                                    Форма для вареного яйца «Череп»
+                                    <span class="products-gallery__count">(22)</span>
+                                </a>
+                            </li>
+
+                            <li class="products-gallery__item">
+                                <div class="products-gallery__img">
+                                    <img src="img/products-gallery/img3.png">
+                                </div>
+                                <a href="#" class="products-gallery__name">
+                                    Ситечко для чая «Мистер Заваркин»
+                                    <span class="products-gallery__count">(12)</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="products-undergallery">
+                            <li class="products-undergallery__item">
+                                <div class="products-undergallery__img products-undergallery__img--bestseller products-undergallery__img--available"></div>
+                                <a href="#" class="products-undergallery__link">Круг отрезной по металлу Novo Abrasive
+                                    115*1.2*22</a>
+                                <div class="products-undergallery__price">4,87 грн.</div>
+                                <div class="products-undergallery__status products-undergallery__status--available">в
+                                    наличии
+                                </div>
+                            </li>
+
+                            <li class="products-undergallery__item">
+                                <div class="products-undergallery__img products-undergallery__img--not-available"></div>
+                                <a href="#" class="products-undergallery__link">Круг отрезной по металлу Novo Abrasive
+                                    115*1.2*22</a>
+                                <div class="products-undergallery__price">4,87 грн.</div>
+                                <div class="products-undergallery__status products-undergallery__status--not-available">
+                                    нет
+                                    в наличии
+                                </div>
+                            </li>
+
+                            <li class="products-undergallery__item products-undergallery__img--by-order">
+                                <div class="products-undergallery__img products-undergallery__img--bestseller products-undergallery__img--by-order"></div>
+                                <a href="#" class="products-undergallery__link">Круг отрезной по металлу Novo Abrasive
+                                    115*1.2*22</a>
+                                <div class="products-undergallery__price">4,87 грн.</div>
+                                <div class="products-undergallery__status products-undergallery__status--by-order">под
+                                    заказ
+                                </div>
+                            </li>
+
+                            <li class="products-undergallery__item">
+                                <div class="products-undergallery__img products-undergallery__img--available"></div>
+                                <a href="#" class="products-undergallery__link">Круг отрезной по металлу Novo Abrasive
+                                    115*1.2*22</a>
+                                <div class="products-undergallery__price">4,87 грн.</div>
+                                <div class="products-undergallery__status products-undergallery__status--not-available">
+                                    нет
+                                    в наличии
+                                </div>
+                            </li>
+
+                            <li class="products-undergallery__item">
+                                <div class="products-undergallery__img products-undergallery__img--available"></div>
+                                <a href="#" class="products-undergallery__link">Круг отрезной по металлу Novo Abrasive
+                                    115*1.2*22</a>
+                                <div class="products-undergallery__price">4,87 грн.</div>
+                                <div class="products-undergallery__status products-undergallery__status--available">в
+                                    наличии
+                                </div>
+                            </li>
+
+                        </ul>
+                    </article>
+                </section>
+
+                <section class="window">
+                    <h1>Витрина</h1>
+                    <ul class="window__gallery">
+                        <li class="window__gallery-item">
+                            <img src="img/window/window.png" class="window__gallery-img">
+                            <a href="#" class="window__gallery-link">Круг отрезной по металлу Novo Abrasive
+                                115*1.2*22</a>
+                            <div class="window__gallery-price">4,87 грн.</div>
+                            <div class="window__gallery-status window__gallery-status--available">в наличии</div>
+                        </li>
+
+                        <li class="window__gallery-item">
+                            <img src="img/window/window.png" class="window__gallery-img">
+                            <a href="#" class="window__gallery-link">Круг отрезной по металлу Novo Abrasive
+                                115*1.2*22</a>
+                            <div class="window__gallery-price">4,87 грн.</div>
+                            <div class="window__gallery-status window__gallery-status--by-order">под заказ</div>
+                        </li>
+
+                        <li class="window__gallery-item">
+                            <img src="img/window/window.png" class="window__gallery-img">
+                            <a href="#" class="window__gallery-link">Круг отрезной по металлу Novo Abrasive
+                                115*1.2*22</a>
+                            <div class="window__gallery-price">4,87 грн.</div>
+                            <div class="window__gallery-status window__gallery-status--not-available">в наличии</div>
+                        </li>
+                    </ul>
+
+                    <ul class="window-mini-gallery">
+                        <li class="window-mini-gallery__item">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
+                            <div class="window-mini-gallery__price">4,87 грн.</div>
+                            <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
+                            </div>
+                        </li>
+                        <li class="window-mini-gallery__item">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
+                            <div class="window-mini-gallery__price">4,87 грн.</div>
+                            <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
+                            </div>
+                        </li>
+                        <li class="window-mini-gallery__item">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
+                            <div class="window-mini-gallery__price">4,87 грн.</div>
+                            <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
+                            </div>
+                        </li>
+                        <li class="window-mini-gallery__item">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
+                            <div class="window-mini-gallery__price">4,87 грн.</div>
+                            <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <ul class="products-slider">
+                        <li>
+                            <div class="products-slider__img"></div>
+                            <div class="products-slider__box">
+                                <a class="products-slider__name">Покрывало ARYA Evelina Elenora
+                                    270x260 см. 1050
+                                </a>
+                                <div class="products-slider__description">Бинокулярная лупа MG81007-A предназначена для
+                                    работы с мелкими объектами со свободными руками. Данная лупа
+                                    также отлично подойдет для чтения в домашних условиях.
+                                </div>
+                                <div class="products-slider__price">810 грн</div>
+                                <div class="products-slider__status products-slider__status--available">в наличии</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </section>
+
+            </main>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-info__company-name">© 2015 Интернет-магазин женского белья и аксессуаров "ECLIPSE
+                LINGERIE"
+            </div>
+            <div class="footer-info__description">
+                <a href="#">Сайт создан на платформе Zakupka.com</a> |
+                <a href="#">Пожаловаться на содержимое</a>
+            </div>
+        </div>
+        <img src="img/footer/metrika.png"/>
+    </footer>
+
+</section>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="script/app.js"></script>
+</body>
+</html>

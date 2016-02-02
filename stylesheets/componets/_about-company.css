@@ -1,0 +1,17 @@
+.about-company {
+    margin: 1em 2em 2em;
+}
+
+.about-company__list {
+    list-style: none;
+}
+
+.about-company__list li {
+    padding-bottom: 0.7em;
+}
+
+.about-company__link {
+    font: 1.6em 'PragmaticaC';
+    color: #222;
+    text-decoration: none;
+}

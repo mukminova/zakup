@@ -1,0 +1,47 @@
+.contacts h3:before {
+    content: '';
+    display: inline-block;
+    background: url("../../img/contacts/contacts.png");
+    width: 1.867em;
+    height: 1.333em;
+    margin-right: 0.8em;
+    vertical-align: -0.4em;
+}
+
+.contacts__name {
+    font: 1.4em 'PragmaticaC';
+    color: #646464;
+    line-height: 1.6em;
+    margin-bottom: 5px;
+}
+
+.contacts__item:not(h4) {
+    font: 1.4em 'PragmaticaLightC';
+    color: #646464;
+    line-height: 1.8em;
+    margin-bottom: 5px;
+}
+
+.contacts__item a {
+    color: #646464;
+}
+
+.contacts__social {
+    list-style: none;
+    margin-left: 1.8em;
+}
+
+.contacts__social li {
+    padding-bottom: 0.8em;
+}
+
+.contacts__social a {
+    font: 1.6em 'PragmaticaLightC';
+    color: #222;
+    text-decoration: none;
+}
+
+.contacts__social img {
+    padding-right: 1em;
+    vertical-align: -0.2em;
+}

@@ -1,0 +1,94 @@
+.helpers {
+    display: flex;
+    flex-direction: column;
+}
+
+.helpers__breadcrumbs {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0.5em;
+}
+
+.helpers__breadcrumbs li {
+    padding-right: 1em;
+}
+
+.helpers__breadcrumbs li a {
+    font: 1.3em 'PragmaticaC';
+    text-decoration: none;
+}
+
+.helpers__breadcrumbs li:not(:last-child) a:after {
+    display: inline-block;
+    content: '';
+    background: url("../../img/helpers/arrow.png") no-repeat;
+    width: 0.846em;
+    height: 1.385em;
+    vertical-align: -0.2em;
+    margin-left: 0.85em;
+}
+
+.helpers__breadcrumbs li:not(:last-child) a {
+    color: #333;
+}
+
+.helpers__breadcrumbs li:last-child a {
+    color: #aaa;
+}
+
+.helpers__breadcrumbs li:last-child a {
+    color: #aaa;
+    vertical-align: -0.4em;
+}
+
+.helpers__change-language-select {
+    font: 1.2em 'PragmaticaLightC';
+    color: #969696;
+    width: 14em;
+    border: none;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    background: url('../../img/helpers/language.png') no-repeat 0.5em center;
+    outline: none;
+    z-index: 100;
+    text-indent: 1.9em;
+}
+
+@-moz-document url-prefix() {
+    .helpers__change-language-select {
+        text-indent: 1.1em;
+    }
+}
+
+.helpers__change-language {
+    background: #eee;
+    width: 13.5em;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.helpers__change-language-button {
+    background: url('../../img/helpers/button.png') no-repeat;
+    height: 0.9em;
+    width: 1em;
+    position: absolute;
+    right: 0.8em;
+    top: 50%;
+    margin-top: -0.45em;
+    z-index: 50;
+}
+
+@media (min-width: 768px) {
+    .helpers {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1em 2em 0.7em;
+    }
+
+    .helpers__change-language {
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,20 @@
+.contact-button {
+    padding: 0.63em 1.1em;
+    background: #444;
+    color: #fff;
+    font: 1.7em 'Trebuchet MS';
+    display: block;
+    border: none;
+    outline: none;
+    width: 12.4em;
+    margin: 1.4em auto 1.1em;
+}
+
+.contact-button__icon {
+    background: url("../../img/contact-button/contact-button.png");
+    width: 1.882em;
+    height: 1.353em;
+    margin-right: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}

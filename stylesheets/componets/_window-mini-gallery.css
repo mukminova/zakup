@@ -1,0 +1,49 @@
+.window-mini-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4.6em;
+}
+
+.window-mini-gallery__item {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    padding: 0 1em;
+}
+
+.window-mini-gallery__bg {
+    background: #eee;
+    padding: 1em;
+    display: block;
+    margin: 0 auto 2em;
+    box-shadow: 0 0.3em 0.3em 0 rgba(0, 0, 0, 0.15);
+}
+
+.window-mini-gallery__link {
+    font: 1.3em 'PragmaticaLightC';
+    color: #646464;
+}
+
+.window-mini-gallery__price {
+    font: 1.6em 'PragmaticaC Bold';
+    color: #222;
+    margin-top: 0.5em;
+
+}
+
+.window-mini-gallery__status {
+    font: 1.3em 'PragmaticaLightC';
+}
+
+.window-mini-gallery__status--available{
+    color: #338634;
+}
+
+.window-mini-gallery__status--not-available{
+    color: #646464;
+}
+
+.window-mini-gallery__status--by-order{
+    color: #ff9600;
+}

@@ -1,0 +1,65 @@
+.window {
+    margin-top: 5.5em;
+}
+
+.window__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.window__gallery-item {
+    list-style: none;
+    width: 20em;
+    margin-bottom: 2em;
+}
+
+.window__gallery-img {
+    background: #eee;
+    display: block;
+    margin-bottom: 2.3em;
+    padding: 4.5em 2em;
+    box-shadow: 0 0.3em 0.3em 0 rgba(0, 0, 0, 0.15);
+}
+
+.window__gallery-link {
+    font: 1.3em 'PragmaticaLightC';
+    color: #646464;
+}
+
+.window__gallery-price {
+    font: 1.6em 'PragmaticaC Bold';
+    color: #222;
+    margin: 0.5em 0 0.1em;
+}
+
+.window__gallery-status {
+    font: 1.3em 'PragmaticaLightC';
+}
+
+.window__gallery-status--available {
+    color: #338634;
+}
+
+.window__gallery-status--not-available {
+    color: #646464;
+}
+
+.window__gallery-status--by-order {
+    color: #ff9600;
+}
+
+@media (min-width: 1024px) {
+    .window__gallery {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .window__gallery-img {
+        margin: 0 auto 2.3em;
+    }
+
+    .window__gallery-item {
+        margin: 0;
+    }
+}
