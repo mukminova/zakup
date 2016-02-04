@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 <body>
-<section class="site">
+<div class="site">
     <header>
         <div class="header">
             <a href="#">
-                <img src="img/header/logo.png" class="header__logo"/>
+                <img src="img/header/logo.png" class="header__logo" alt="logo">
             </a>
             <div class="header__rating">
                 VIP
@@ -27,15 +27,15 @@
                 <button type="button" id="menu-btn" class="header__header-menu-btn"><!--image--></button>
                 <ul class="header__header-menu-list ">
                     <li>
-                        <img src="img/header-menu/add.png">
+                        <img src="img/header-menu/add.png" alt="add-icon">
                         <a href="#">Добавить компанию на Zakupka.com</a>
                     </li>
                     <li>
-                        <img src="img/header-menu/phone.png">
+                        <img src="img/header-menu/phone.png" alt="phone-icon">
                         <a class="header__header-menu-list--select" href="#">Заказать обратный звонок</a>
                     </li>
                     <li>
-                        <img src="img/header-menu/basket.png">
+                        <img src="img/header-menu/basket.png" alt="basket-icon">
                         <a href="#">Корзина</a>
                     </li>
                 </ul>
@@ -44,7 +44,7 @@
         <div class="header-nav">
             <div class="header-nav__company-info">
                 <div class="header-nav__company-info-box">
-                    <img src="img/header-nav/logo-firm.png"/>
+                    <img src="img/header-nav/logo-firm.png" alt="firms logo">
 
                     <div class="header-nav__company-name">Мотор Сич</div>
                 </div>
@@ -67,7 +67,7 @@
     <section class="site-content">
         <div class="helpers">
             <ul class="helpers__breadcrumbs">
-                <li><a href="#" class="breadcrumbs__home"><img src="img/helpers/home.png"></a></li>
+                <li><a href="#" class="breadcrumbs__home"><img src="img/helpers/home.png" alt="home"></a></li>
                 <li><a href="#">Товары и услуги</a></li>
                 <li><a href="#">Ручная дуговая</a></li>
                 <li><a href="#">Инверторы</a></li>
@@ -86,7 +86,7 @@
                 <a class="helpers__change-language-button"></a>
             </div>
         </div>
-        <article class="content-box">
+        <div class="content-box">
             <aside class="content-box__sidebar">
                 <section class="goods">
                     <h3>Товары и услуги</h3>
@@ -107,14 +107,14 @@
                     </ul>
                 </section>
 
-                <section class="about-company">
+                <div class="about-company">
                     <ul class="about-company__list">
                         <li><a class="about-company__link" href="#">О нас</a></li>
                         <li><a class="about-company__link" href="#">Оставить отзыв</a></li>
                         <li><a class="about-company__link" href="#">Новости</a></li>
                         <li><a class="about-company__link" href="#">Статьи</a></li>
                     </ul>
-                </section>
+                </div>
 
                 <section class="contacts">
                     <h3>Контакты</h3>
@@ -141,25 +141,25 @@
                     <ul class="contacts__social">
                         <li>
                             <a href="#">
-                                <img src="img/contacts/vk.png">
+                                <img src="img/contacts/vk.png" alt="vkontakte">
                                 Вконтакте
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/contacts/fc.png">
+                                <img src="img/contacts/fc.png" alt="facebook">
                                 Facebook
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/contacts/ggle.png">
+                                <img src="img/contacts/ggle.png" alt="google">
                                 Google+
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="img/contacts/twit.png">
+                                <img src="img/contacts/twit.png" alt="twitter">
                                 Twitter
                             </a>
                         </li>
@@ -241,7 +241,7 @@
                     <h1>Товары и услуги</h1>
                     <ul class="products__list">
                         <li class="products__item">
-                            <img src="img/products/product-img.png">
+                            <img src="img/products/product-img.png" alt="goods">
                             <a href="#" class="products__name">
                                 Биокамины
                                 <span class="products__count">(1)</span>
@@ -249,7 +249,7 @@
                         </li>
 
                         <li class="products__item">
-                            <img src="img/products/product-img.png">
+                            <img src="img/products/product-img.png" alt="goods">
                             <a href="#" class="products__name">
                                 Оригинальные<br> подарки
                                 <span class="products__count">(29)</span>
@@ -257,7 +257,7 @@
                         </li>
 
                         <li class="products__item">
-                            <img src="img/products/product-img.png">
+                            <img src="img/products/product-img.png" alt="goods">
                             <a href="#" class="products__name">
                                 Для дома и сада
                                 <span class="products__count">(133)</span>
@@ -277,7 +277,7 @@
                             </div>
                         </header>
                     </div>
-                    <article>
+                    <div>
                         <ul class="product-panel">
                             <li class="product-panel__item">
                                 <div class="product-panel__key-name">Сортировка</div>
@@ -307,7 +307,7 @@
                         <ul class="products-gallery">
                             <li class="products-gallery__item">
                                 <div class="products-gallery__img">
-                                    <img src="img/products-gallery/img1.png">
+                                    <img src="img/products-gallery/img1.png" alt="goods">
                                 </div>
                                 <a href="#" class="products-gallery__name">
                                     Ножницы для пиццы
@@ -317,7 +317,7 @@
 
                             <li class="products-gallery__item">
                                 <div class="products-gallery__img">
-                                    <img src="img/products-gallery/img2.png">
+                                    <img src="img/products-gallery/img2.png" alt="goods">
                                 </div>
                                 <a href="#" class="products-gallery__name">
                                     Форма для вареного яйца «Череп»
@@ -327,7 +327,7 @@
 
                             <li class="products-gallery__item">
                                 <div class="products-gallery__img">
-                                    <img src="img/products-gallery/img3.png">
+                                    <img src="img/products-gallery/img3.png" alt="goods">
                                 </div>
                                 <a href="#" class="products-gallery__name">
                                     Ситечко для чая «Мистер Заваркин»
@@ -390,14 +390,14 @@
                             </li>
 
                         </ul>
-                    </article>
+                    </div>
                 </section>
 
                 <section class="window">
                     <h1>Витрина</h1>
                     <ul class="window__gallery">
                         <li class="window__gallery-item">
-                            <img src="img/window/window.png" class="window__gallery-img">
+                            <img src="img/window/window.png" class="window__gallery-img" alt="goods">
                             <a href="#" class="window__gallery-link">Круг отрезной по металлу Novo Abrasive
                                 115*1.2*22</a>
                             <div class="window__gallery-price">4,87 грн.</div>
@@ -405,7 +405,7 @@
                         </li>
 
                         <li class="window__gallery-item">
-                            <img src="img/window/window.png" class="window__gallery-img">
+                            <img src="img/window/window.png" class="window__gallery-img" alt="goods">
                             <a href="#" class="window__gallery-link">Круг отрезной по металлу Novo Abrasive
                                 115*1.2*22</a>
                             <div class="window__gallery-price">4,87 грн.</div>
@@ -413,7 +413,7 @@
                         </li>
 
                         <li class="window__gallery-item">
-                            <img src="img/window/window.png" class="window__gallery-img">
+                            <img src="img/window/window.png" class="window__gallery-img" alt="goods">
                             <a href="#" class="window__gallery-link">Круг отрезной по металлу Novo Abrasive
                                 115*1.2*22</a>
                             <div class="window__gallery-price">4,87 грн.</div>
@@ -423,28 +423,28 @@
 
                     <ul class="window-mini-gallery">
                         <li class="window-mini-gallery__item">
-                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg" alt="goods">
                             <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
                             <div class="window-mini-gallery__price">4,87 грн.</div>
                             <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
                             </div>
                         </li>
                         <li class="window-mini-gallery__item">
-                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg" alt="goods">
                             <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
                             <div class="window-mini-gallery__price">4,87 грн.</div>
                             <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
                             </div>
                         </li>
                         <li class="window-mini-gallery__item">
-                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg" alt="goods">
                             <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
                             <div class="window-mini-gallery__price">4,87 грн.</div>
                             <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
                             </div>
                         </li>
                         <li class="window-mini-gallery__item">
-                            <img src="img/window/window2.png" class="window-mini-gallery__bg">
+                            <img src="img/window/window2.png" class="window-mini-gallery__bg" alt="goods">
                             <a href="#" class="window-mini-gallery__link">Круг отрезной по металлу Novo Abrasive</a>
                             <div class="window-mini-gallery__price">4,87 грн.</div>
                             <div class="window-mini-gallery__status window-mini-gallery__status--available">в наличии
@@ -453,28 +453,25 @@
                     </ul>
                 </section>
 
-                <section>
-                    <ul class="products-slider">
-                        <li>
-                            <div class="products-slider__img"></div>
-                            <div class="products-slider__box">
-                                <a class="products-slider__name">Покрывало ARYA Evelina Elenora
-                                    270x260 см. 1050
-                                </a>
-                                <div class="products-slider__description">Бинокулярная лупа MG81007-A предназначена для
-                                    работы с мелкими объектами со свободными руками. Данная лупа
-                                    также отлично подойдет для чтения в домашних условиях.
-                                </div>
-                                <div class="products-slider__price">810 грн</div>
-                                <div class="products-slider__status products-slider__status--available">в наличии</div>
+                <ul class="products-slider">
+                    <li>
+                        <div class="products-slider__img"></div>
+                        <div class="products-slider__box">
+                            <a class="products-slider__name">Покрывало ARYA Evelina Elenora
+                                270x260 см. 1050
+                            </a>
+                            <div class="products-slider__description">Бинокулярная лупа MG81007-A предназначена для
+                                работы с мелкими объектами со свободными руками. Данная лупа
+                                также отлично подойдет для чтения в домашних условиях.
                             </div>
-                        </li>
-                    </ul>
-
-                </section>
+                            <div class="products-slider__price">810 грн</div>
+                            <div class="products-slider__status products-slider__status--available">в наличии</div>
+                        </div>
+                    </li>
+                </ul>
 
             </main>
-        </article>
+        </div>
     </section>
 
     <footer class="footer">
@@ -487,10 +484,10 @@
                 <a href="#">Пожаловаться на содержимое</a>
             </div>
         </div>
-        <img src="img/footer/metrika.png"/>
+        <img src="img/footer/metrika.png" alt="metrika">
     </footer>
 
-</section>
+</div>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="script/app.js"></script>
 </body>
