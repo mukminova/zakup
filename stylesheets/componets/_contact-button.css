@@ -10,7 +10,8 @@
     margin: 1.4em auto 1.1em;
 }
 
-.contact-button__icon {
+.contact-button:before {
+    content: "";
     background: url("../../img/contact-button/contact-button.png");
     width: 1.882em;
     height: 1.353em;
